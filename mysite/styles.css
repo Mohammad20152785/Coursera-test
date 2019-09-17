@@ -1,0 +1,330 @@
+#wrapper{
+	font-family: tohoma;
+}
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+#subheader{
+	width: 100%;
+	height: 30px;
+	background:#0a930a;
+	color: #fff;
+	margin-top: -15px;
+
+}
+#subheader p{
+	float: left;
+	margin-top: 7px;
+}
+#subheader a{
+	float: right;
+	line-height: 30px;
+	color: #fff;
+text-decoration: none;
+margin-left: 30px;
+}
+/* logo style */
+#main-header{
+	width: 100%;
+	height: 100px;
+	background:#1aaa1a;
+	float: left;
+	margin-top: -15px;
+}
+#logo{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+}
+#ist{
+	color: black;
+	font-size:45px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: cursive;
+
+}
+#ist{
+	color: black;
+	font-size:35px;
+	font-weight: bold;
+	font-family: cursive;
+}
+/* search area styling*/
+#search{
+	width: 650px;
+	float: left;
+	padding: 20px;
+	margin-left:  50px;
+
+}
+.search-area{
+	width: 650px;
+	height: 50px;
+	background:#fff;
+	border: none;
+	border-radius: 10px;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.search-btn{
+	width:100px;
+	height: 52px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	background: brown;
+	margin-left: -10px;
+	position: relative;
+	top: -52px;
+	left: 600px
+	
+
+}
+/* this is for user menu */
+#user-menu{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+
+}
+/* this is for list styling */
+#user-menu li{
+	float: left ;
+	width: 140px;
+	text-align: center;
+	list-style: none;
+	font-style: 25px;
+	border-left: 1px solid black;
+}
+#user-menu li:hover{
+	font-size:30px;
+	transition: : all .5s ease;
+}
+#user-menu li a{
+	color: white;
+	text-decoration: none;
+
+}
+/* this style for navigation bar */
+#navigation{
+	width: 100%;
+	height: 35px;
+	background:#1aaa1a;
+	float: left;
+	box-shadow: 10px 14px 50px 2px #1aaa1a;
+}
+nav{
+	width: 1280px;
+	margin: 0 auto;
+
+}
+
+nav a{  
+	margin-left:35px;
+	color: white;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color:#000;
+	transition: all .7s ease;
+
+}
+/* this is for slider area */
+#slider{
+	width: 100%;
+	max-width:100%;
+	float: left;
+	overflow: hidden;
+}
+.bx-wrapper .bx-viewport{
+	margin-top:-20px;
+}
+.bX-wrapper .bX-paget,.bx.wrapper .bx-controls-auto{
+	bottom: 30px;
+
+}
+.bx-wrapper .bx-pager, .bx-defult-pager{
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+
+}
+
+/* category heading */
+#heading-block{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: #1aaa1a;
+	font-size:22px;
+
+}
+#heading-block h2{
+	line-height: 35px;
+	border-left: 20px solid #1aaa1a;
+    padding-left: 10px;
+
+}
+ /* category boxes*/
+ .catbox{
+ 	width: 235px;
+ 	height: 235px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	float: left;
+ 	margin: 0 15px 30px 0;
+
+
+ }
+.catbox span{
+	width: 100%;
+	height: 35px;
+	color: white;
+	line-height:35px; 
+	background:rgba(0,0,0,0.6);
+	display: block;
+	bottom: 30px;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+
+}
+.catbox:hover span{
+	color: #1aaa1a;
+
+
+}
+.catbox img{
+	transition: all .5s ease;
+	
+
+}
+
+.catbox:hover img{
+	transform: scale(1.3,1.3);
+	transition: all .5s ease;
+
+}
+/* this is styling for product-boxes*/
+.prod-box{
+	width: 235px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0px 18px 30px 0px;
+	position: relative;
+	
+	float: left;
+}
+.prod-box>img{ 
+	max-width:100%;
+}
+.prod-trans{
+	background:rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	float: left;
+	opacity: 0;
+	transition: all .5s ease;
+
+}
+.prod-box:hover .prod-trans{
+	opacity: 1;
+	transition: all .5s ease;
+
+}
+.prod-feature{
+	text-align: center;
+
+
+}
+.prod-feature p{
+	color: green;
+
+}
+.offer{
+	width:420px;
+	float: left;
+	margin-right: 10px;
+
+}
+.offer:last-child{
+	margin-right: 0px;
+
+}
+.offer img{
+	width: 100%;
+
+}
+#footer{
+	width: 100%;
+	height: 300px;
+	background:#f5f5f5;
+	float: left;
+}
+.footer_sub{
+	width: 25%;
+	float: left;
+
+}
+.footer_sub_2{
+	width: 20%;
+	float: left;
+
+
+}
+.footer_sub_2 ul li{
+	list-style: none;
+}
+.footer_sub_2 ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.footer_sub_2 ul li a:hover{
+	
+	color: #1aaa1a;
+	text-decoration: underline;
+}
+
+.footer_sub_3{
+	width: 35%;
+	float: left;
+
+}
+.subs{
+	width: 300px;
+	border: none;
+	height: 35px;
+    padding:5px;
+   
+
+}
+.sub_btn{
+	height: 35px;
+	border: none;
+	background:#1aaa1a;
+	font-style:bold;
+	font-size: 20px;
+
+
+	}
+.sub_p{
+	color: #999;
+	font-style: italic;
+	font-size: 10px;
+}
+
+
+
+
+
